@@ -18,5 +18,4 @@ class StoreFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_store, container, false)
     }
 
-
 }
