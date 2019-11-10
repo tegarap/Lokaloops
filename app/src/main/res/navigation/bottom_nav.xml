@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/storeBottomNavFragment">
+
+    <fragment
+        android:id="@+id/storeBottomNavFragment"
+        android:name="com.tegarap.lokaloops.ui.store.StoreFragment"
+        android:label="fragment_store_bottom_nav"
+        tools:layout="@layout/fragment_store" />
+    <fragment
+        android:id="@+id/historyBottomNavFragment"
+        android:name="com.tegarap.lokaloops.ui.history.HistoryFragment"
+        android:label="fragment_history_bottom_nav"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/accountBottomNavFragment"
+        android:name="com.tegarap.lokaloops.ui.account.AccountFragment"
+        android:label="fragment_account_bottom_nav"
+        tools:layout="@layout/fragment_account" />
+</navigation>

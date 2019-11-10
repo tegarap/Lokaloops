@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/storeBottomNavFragment"
+        android:icon="@drawable/ic_store"
+        android:title="@string/store"/>
+
+    <item
+        android:id="@id/historyBottomNavFragment"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history"/>
+
+    <item
+        android:id="@id/accountBottomNavFragment"
+        android:icon="@drawable/ic_account"
+        android:title="@string/account"/>
+</menu>
